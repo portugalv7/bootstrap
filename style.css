@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,100&display=swap');
+
+.text-urbanist{
+    font-family: urbanist;
+}
+
+.bg-primary{
+    background-color: aquamarine !important;
+}
+
+.bg-secondary{
+    background-color: blueviolet !important;
+}
+
+
+
+.fs-7{
+    font-size: 0.85rem;
+}
+
+.main-title{
+    line-height: 22px;
+}
+
+.logo-container{
+    width: 65px;
+}
+
+.home-button{
+    border-right: solid 1px white;
+}
+
+.navbar .navbar-nav .nav-link{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white !important;
+    position: relative;
+    border-right: solid 1px white;
+}
+
+.navbar .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: solid 5px transparent;
+    border-left: solid 5px transparent;
+    border-right: solid 5px white;
+    border-bottom: solid 5px white;
+}
+
+.navbar-brand {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 36px;
+    margin-right: 0;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    border-right: solid 1px white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.btn-outline-success {
+    color: #ced4da;
+    border-color: #ced4da;
+}
+.btn{
+    background-color: white;
+    border-radius: 3px;
+}
+
+.form-control{
+    border-radius: 3px;
+}
+
