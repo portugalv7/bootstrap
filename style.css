@@ -12,7 +12,9 @@
     background-color: blueviolet !important;
 }
 
-
+.text-light{
+    color: white;
+}
 
 .fs-7{
     font-size: 0.85rem;
@@ -25,6 +27,7 @@
 .logo-container{
     width: 65px;
 }
+
 
 .home-button{
     border-right: solid 1px white;
@@ -69,16 +72,35 @@
     color: white;
 }
 
-.btn-outline-success {
-    color: #ced4da;
-    border-color: #ced4da;
-}
 .btn{
-    background-color: white;
     border-radius: 3px;
+}
+
+.btn-search:hover {
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+.btn-primary {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: aquamarine;
+    border-color: aquamarine;
 }
 
 .form-control{
     border-radius: 3px;
 }
 
+footer .nav-link{
+    padding: 0;
+    display: inline;
+}
+
+footer .nav-link:hover{
+    text-decoration: underline;
+}
